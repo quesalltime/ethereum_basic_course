@@ -2,7 +2,7 @@
 ## geth console ##
 interact with geth
 ```
-docker exec -it bash tem-geth-full sh
+docker exec -it tem-geth-full sh
 ```
 
 attach console
@@ -19,8 +19,13 @@ eth.getBalance([addr])
 eth.syncing
 ```
 
+## troubleshooting ##
 
-## Ref. ##
+### Synchronisation failed, dropping peer; err=“retrieved hash chain is invalid”; message loop ###
+upgrade geth version(> 1.8.16) and restart geth
+
+
+## reference ##
 - [metamask](https://blockcast.it/2017/06/17/eth-and-eth-token-wallet-series-metamask/)
 - [ropsten faucet](https://faucet.ropsten.be/)
 - [ropsten explorer](https://ropsten.etherscan.io/)
