@@ -17,6 +17,8 @@ eth.blockNumber
 eth.getBalance([addr])
 
 eth.syncing
+
+admin.nodeInfo
 ```
 
 ## troubleshooting ##
