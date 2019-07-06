@@ -1,7 +1,7 @@
 #!/bin/bash
 
 geth_dir=$(pwd)
-docker run -d --name geth-full \
+docker run -d --name geth-full-mainnet \
 -v "$geth_dir/gethdata/full_mainnet":/gethdata \
 -p 8545:8545 \
 tem/geth \

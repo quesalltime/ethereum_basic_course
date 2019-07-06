@@ -1,7 +1,7 @@
 #!/bin/bash
 
 geth_dir=$(pwd)
-docker run -d --name geth-light \
+docker run -d --name geth-light-mainnet \
 -v "$geth_dir/gethdata/light_mainnet":/gethdata \
 -p 8545:8545 \
 tem/geth \
