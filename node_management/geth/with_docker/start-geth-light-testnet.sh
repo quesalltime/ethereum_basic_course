@@ -2,7 +2,7 @@
 
 geth_dir=$(pwd)
 docker run -d --name geth-light-testnet \
--v $geth_dir/gethdata/light_testnet:/gethdata \
+-v "$geth_dir/gethdata/light_testnet":/gethdata \
 -p 8545:8545 \
 tem/geth \
 --syncmode light --datadir /gethdata \
