@@ -1,0 +1,1 @@
+geth --networkid 999999 --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi "db,eth,net,web3,personal" --port 30303 --rpcport 8545 --datadir gethdata --allow-insecure-unlock --unlock 0x4dcc2b0Ec9237da36760EBe938BBD1deEb313525 --etherbase 0x4dcc2b0Ec9237da36760EBe938BBD1deEb313525 --password poa_signer.pwd --mine
